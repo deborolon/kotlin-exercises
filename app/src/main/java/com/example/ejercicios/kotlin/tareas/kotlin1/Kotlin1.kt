@@ -117,6 +117,15 @@ class Kotlin1 {
         }
         println(num)
     }
+
+    //creacion de objetos
+    fun crearUsuario(
+        nombre: String,
+        edad: Int,
+        estado: Boolean
+    ){
+        println("Usuario nombre: $nombre, usuario edad: $edad, activo: $estado")
+    }
 }
 
 // Puedes comentar con doble barra (//) las funciones que no quieras ejecutar para probar una a una
@@ -130,4 +139,5 @@ fun main() {
     ejercicios.ejercicio6()
     ejercicios.ejercicio7(null)
     ejercicios.ejercicio8()
+    ejercicios.crearUsuario(nombre = "Debs", edad = 32, estado = true)
 }
